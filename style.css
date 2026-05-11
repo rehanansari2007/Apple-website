@@ -17,11 +17,12 @@ header{
     margin-left:200px;
     width:300px;
     align-items: center;
+    text-align: center;
 }
 .nav button{
     width: 100px;
     padding-top: 5px;
-    padding-bottom: 5px;
+   padding-bottom: 5px;
 }
 
 .nav img{
@@ -67,6 +68,13 @@ header{
 }
 .text button{
     padding: 10px 10px 10px 10px;
+    width:150px;
+    border-radius: 20px;
+    gap:20px;
+}
+.text button:hover{
+    background-color: rgba(255,200,150,0.8);
+    color: black;
 }
 .right{
     text-align: right;
